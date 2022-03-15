@@ -1,0 +1,21 @@
+:root {
+    --ff-serif-head: 'Fredoka', sans-serif;
+    --ff-serif-body: 'Source Sans Pro', sans-serif;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-serif-body);
+}
+
+h1,
+h2 {
+    margin: 0 auto;
+    text-align: center;
+}
