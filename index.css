@@ -19,3 +19,18 @@ h2 {
     margin: 0 auto;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+
+#increment-btn {
+
+    margin: 5em auto;
+    padding: 2em 5em;
+    font-family: var(--ff-serif-head);
+    text-transform: uppercase;
+    cursor: pointer;
+}
