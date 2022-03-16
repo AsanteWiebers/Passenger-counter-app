@@ -2,8 +2,10 @@
     --ff-serif-head: 'Fredoka', sans-serif;
     --ff-serif-body: 'Source Sans Pro', sans-serif;
 
+    --yellow: #FFD32D;
     --btn-red: #DA1212;
     --btn-blue: #56BBF1;
+    --btn-green: #65C18C;
 }
 
 ::before,
@@ -17,9 +19,16 @@ body {
     font-family: var(--ff-serif-body);
 }
 
+.bg {
+    background-image: url(/assets/karen-lau-z_S5m-dqADA-unsplash.jpg);
+}
+
 h1,
 h2 {
-    margin: 0 auto;
+    font-family: var(--ff-serif-head);
+    font-size: 3rem;
+    color: var(--yellow);
+    margin: 1em auto;
     text-align: center;
 }
 
@@ -53,4 +62,23 @@ h2 {
     cursor: pointer;
 }
 
+#save-btn {
+    background-color: var(--btn-green);
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 5em auto;
+    padding: 2em 5em;
+    font-family: var(--ff-serif-head);
+    text-transform: uppercase;
+    cursor: pointer;
+}
 
+
+@media (max-width: 900px){
+    .container {
+        flex-direction: column;
+        display: block;
+        text-align: center;
+    }
+}

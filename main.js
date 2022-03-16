@@ -14,5 +14,8 @@ function decrement () {
     countEl.innerText = count;
 }
 
+function save() {
+    console.log(count);
+}
 
 
