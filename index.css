@@ -1,6 +1,9 @@
-:root {
+ :root {
     --ff-serif-head: 'Fredoka', sans-serif;
     --ff-serif-body: 'Source Sans Pro', sans-serif;
+
+    --btn-red: #DA1212;
+    --btn-blue: #56BBF1;
 }
 
 ::before,
@@ -27,10 +30,27 @@ h2 {
 }
 
 #increment-btn {
-
+    background-color: var(--btn-red);
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     margin: 5em auto;
     padding: 2em 5em;
     font-family: var(--ff-serif-head);
     text-transform: uppercase;
     cursor: pointer;
 }
+
+#decrement-btn {
+    background-color: var(--btn-blue);
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 5em auto;
+    padding: 2em 5em;
+    font-family: var(--ff-serif-head);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
