@@ -74,6 +74,12 @@ h2 {
     cursor: pointer;
 }
 
+#save-el {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+}
+
 
 @media (max-width: 900px){
     .container {

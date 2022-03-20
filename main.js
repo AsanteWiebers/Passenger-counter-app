@@ -1,13 +1,10 @@
 let countEl = document.getElementById("count-el");
 let saveEl = document.getElementById("save-el");
+
 let count = 0;
-
-
 
 console.log(saveEl);
 
-
- 
 function increment() {
     
     count += 1;
@@ -17,18 +14,22 @@ function increment() {
 
 function decrement () {
     count -= 1;
-    countEl.innerText = count;
+    countEl.textContent = count;
     console.log(count);
 }
 
 function save() {
     let countStr = count + " - ";
-    saveEl.innerText = countStr;
+    saveEl.textContent += countStr;
+    
+    count = 0;
+    countEl.textContent = 0;
 
     console.log(count);
 }
 
 save();
+
 
 
 // let welcomeEl = document.getElementById("welcome-el");
